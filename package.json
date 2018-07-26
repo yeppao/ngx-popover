@@ -4,7 +4,6 @@
   "description": "Simple popover control for your angular2 applications using bootstrap3 forked from pleerock work.",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "private": true,
   "author": {
     "name": "Yeppao"
   },
