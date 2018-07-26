@@ -1,7 +1,4 @@
-> This repository is for demonstration purposes of how it can be implemented in Angular and is not maintaned.
-Please fork and maintain your own version of this repository.
-
-# ngx-popover
+# ng-popover
 
 Simple popover control for your angular2 applications using bootstrap3. Does not depend of jquery.
 If you don't want to use it without bootstrap - simply create proper css classes. Please star a project if you liked it,
@@ -9,7 +6,7 @@ or create an issue if you have problems with it.
 
 see [DEMO](http://plnkr.co/edit/tmGQ43m3OGhn8uoAYWua?p=preview).
 
-![angular 2 popover](https://raw.githubusercontent.com/pleerock/ngx-popover/master/resources/popover-example.png)
+![angular popover](https://raw.githubusercontent.com/yeppao/ngx-popover/master/resources/popover-example.png)
 
 ## Installation
 
@@ -164,5 +161,5 @@ export class AppModule {
 }
 ```
 
-Take a look on samples in [./sample](https://github.com/pleerock/ngx-popover/tree/master/sample) for more examples of
+Take a look on samples in [./sample](https://github.com/yeppao/ngx-popover/tree/master/sample) for more examples of
 usages.
