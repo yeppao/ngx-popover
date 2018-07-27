@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Simple popover control for your angular2 applications using bootstrap3 forked from pleerock work.",
   "license": "MIT",
+  "main": "src/index.ts",
   "readmeFilename": "README.md",
   "author": {
     "name": "Yeppao"
