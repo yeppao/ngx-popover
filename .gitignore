@@ -1,5 +1,5 @@
 typings/
-build/
+dist/
 node_modules/
 **/*.ngfactory.ts
 .vscode

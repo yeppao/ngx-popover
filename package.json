@@ -1,9 +1,11 @@
 {
   "name": "ngx-popover-x",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Simple popover control for your angular2 applications using bootstrap3 forked from pleerock work.",
   "license": "MIT",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "typings": "./dist/index",
+  "types": "./dist/index",
   "readmeFilename": "README.md",
   "author": {
     "name": "Yeppao"

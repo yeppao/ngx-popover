@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
+    "lib": ["es2017", "dom"],
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
     "module": "commonjs",
-    "outDir": "./dist",   
-    "esModuleInterop": true  
-  }
+    "outDir": "./dist",
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/*"
+  ]
 }
