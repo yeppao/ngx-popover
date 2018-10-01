@@ -22,6 +22,6 @@ export * from "./PopoverContent";
         PopoverContent
     ]
 })
-export class PopoverModule {
-
+export default class PopoverModule {
+    
 }

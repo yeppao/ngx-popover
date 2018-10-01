@@ -1,11 +1,8 @@
 {
   "name": "ngx-popover-x",
-  "version": "0.0.8",
+  "version": "0.0.7",
   "description": "Simple popover control for your angular2 applications using bootstrap3 forked from pleerock work.",
   "license": "MIT",
-  "main": "./dist/index.js",
-  "typings": "./dist/index",
-  "types": "./dist/index",
   "readmeFilename": "README.md",
   "author": {
     "name": "Yeppao"
@@ -21,7 +18,9 @@
     "popover",
     "angular2",
     "typescript",
-    "angular2-popover"
+    "angular2-popover",
+    "angular",
+    "angular-popover"
   ],
   "peerDependencies": {
     "@angular/core": "^6.1.0"
@@ -40,6 +39,7 @@
     "del": "^2.2.2",
     "es6-shim": "^0.35.2",
     "mocha": "^3.2.0",
+    "ng-packagr": "^4.2.0",
     "reflect-metadata": "0.1.9",
     "rxjs": "^6.2.2",
     "sinon": "^1.17.7",
@@ -51,6 +51,6 @@
     "zone.js": "^0.8.26"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "ng-packagr -p src/package.json"
   }
 }
